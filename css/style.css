@@ -202,3 +202,46 @@ hr {
     border-radius: 8px;
     text-decoration: none;
 }
+
+@media (max-width: 991px) {
+
+    .mountain{
+        max-width: 70%;
+    }
+    
+    .bottom-cloud {
+        position: absolute;
+        left: 250px;
+        bottom: 200px;
+    }
+    
+    .middle-left-bird {
+        position: absolute;
+        left: 100px;
+        top: 250px;
+    }
+    
+    .middle-right-bird {
+        position: absolute;
+        right: 150px;
+        bottom: 300px;
+    }
+    
+    .bottom-bird {
+        position: absolute;
+        right: 350px;
+        bottom: 200px;
+    }
+
+    .introduction{
+        color: #40514E;
+        width: 60%;
+        margin: 50px auto 50px auto;
+        text-align: center;
+    }
+
+    .contact-message {
+        width: 60%;
+        margin: 40px auto 60px;
+    }
+}
